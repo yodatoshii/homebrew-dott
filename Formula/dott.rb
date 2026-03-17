@@ -1,22 +1,22 @@
 class Dott < Formula
   desc "Private domain search. No middlemen."
-  homepage "https://github.com/yodatoshii/dott"
-  version "0.2.4"
+  homepage "https://github.com/yodatoshicom/dott"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/yodatoshii/dott/releases/download/v0.2.4/dott-aarch64-apple-darwin.tar.gz"
-      sha256 "e7bb102985ed6cf199c54d7ff211d6ab048c5d30710228e6616adbd91875bb99"
+      url "https://github.com/yodatoshicom/dott/releases/download/v0.3.0/dott-aarch64-apple-darwin.tar.gz"
+      sha256 "76e97b153cfcb04a5587c0f9f35b8b54957edc8ca607b0e4f4cce59390af4b09"
     end
     on_intel do
-      url "https://github.com/yodatoshii/dott/releases/download/v0.2.4/dott-x86_64-apple-darwin.tar.gz"
-      sha256 "d78ee1357fdb3cac816434701d2ad3c593769e47e5854c33805bc32fe8f2da03"
+      url "https://github.com/yodatoshicom/dott/releases/download/v0.3.0/dott-x86_64-apple-darwin.tar.gz"
+      sha256 "c8893316847c7354c1cf1ab59118c55fd1801ed84573395a25f73f4faa8a1f7a"
     end
   end
 
   on_linux do
-    url "https://github.com/yodatoshii/dott/releases/download/v0.2.4/dott-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "85c699ba067cd5364a17e33202427e0e9ae68ebf6c000730d49fc2cd17a80f73"
+    url "https://github.com/yodatoshicom/dott/releases/download/v0.3.0/dott-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "033e781ec8659f0ea4677375d67fd6511e8a148e7c7644bd0f2daade909571ff"
   end
 
   def install
